@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1903F1EE1C9E2BA50023C3CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1903F1ED1C9E2BA40023C3CC /* main.m */; };
+		1903F1F11C9E2BA50023C3CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1903F1F01C9E2BA50023C3CC /* AppDelegate.m */; };
+		1903F1F41C9E2BA50023C3CC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1903F1F31C9E2BA50023C3CC /* MasterViewController.m */; };
+		1903F1F71C9E2BA50023C3CC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1903F1F61C9E2BA50023C3CC /* DetailViewController.m */; };
+		1903F1FA1C9E2BA50023C3CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1903F1F81C9E2BA50023C3CC /* Main.storyboard */; };
+		1903F1FC1C9E2BA50023C3CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1903F1FB1C9E2BA50023C3CC /* Assets.xcassets */; };
+		1903F1FF1C9E2BA50023C3CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1903F1FD1C9E2BA50023C3CC /* LaunchScreen.storyboard */; };
+		1903F20A1C9E2BA50023C3CC /* ContactList_Therese_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1903F2091C9E2BA50023C3CC /* ContactList_Therese_1Tests.m */; };
+		1903F2151C9E2BA50023C3CC /* ContactList_Therese_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1903F2141C9E2BA50023C3CC /* ContactList_Therese_1UITests.m */; };
+		1903F2241C9E469B0023C3CC /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 1903F2231C9E469B0023C3CC /* Contact.m */; };
+		1903F2271C9E46F70023C3CC /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1903F2261C9E46F70023C3CC /* ContactManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1903F2061C9E2BA50023C3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1903F1E11C9E2BA40023C3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1903F1E81C9E2BA40023C3CC;
+			remoteInfo = ContactList_Therese_1;
+		};
+		1903F2111C9E2BA50023C3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1903F1E11C9E2BA40023C3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1903F1E81C9E2BA40023C3CC;
+			remoteInfo = ContactList_Therese_1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1903F1E91C9E2BA40023C3CC /* ContactList_Therese_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList_Therese_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1903F1ED1C9E2BA40023C3CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1903F1EF1C9E2BA50023C3CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1903F1F01C9E2BA50023C3CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1903F1F21C9E2BA50023C3CC /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		1903F1F31C9E2BA50023C3CC /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		1903F1F51C9E2BA50023C3CC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1903F1F61C9E2BA50023C3CC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1903F1F91C9E2BA50023C3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1903F1FB1C9E2BA50023C3CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1903F1FE1C9E2BA50023C3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1903F2001C9E2BA50023C3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1903F2051C9E2BA50023C3CC /* ContactList_Therese_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactList_Therese_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1903F2091C9E2BA50023C3CC /* ContactList_Therese_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactList_Therese_1Tests.m; sourceTree = "<group>"; };
+		1903F20B1C9E2BA50023C3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1903F2101C9E2BA50023C3CC /* ContactList_Therese_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactList_Therese_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1903F2141C9E2BA50023C3CC /* ContactList_Therese_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactList_Therese_1UITests.m; sourceTree = "<group>"; };
+		1903F2161C9E2BA50023C3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1903F2221C9E469A0023C3CC /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		1903F2231C9E469B0023C3CC /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		1903F2251C9E46F70023C3CC /* ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactManager.h; sourceTree = "<group>"; };
+		1903F2261C9E46F70023C3CC /* ContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1903F1E61C9E2BA40023C3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1903F2021C9E2BA50023C3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1903F20D1C9E2BA50023C3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1903F1E01C9E2BA40023C3CC = {
+			isa = PBXGroup;
+			children = (
+				1903F1EB1C9E2BA40023C3CC /* ContactList_Therese_1 */,
+				1903F2081C9E2BA50023C3CC /* ContactList_Therese_1Tests */,
+				1903F2131C9E2BA50023C3CC /* ContactList_Therese_1UITests */,
+				1903F1EA1C9E2BA40023C3CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1903F1EA1C9E2BA40023C3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1903F1E91C9E2BA40023C3CC /* ContactList_Therese_1.app */,
+				1903F2051C9E2BA50023C3CC /* ContactList_Therese_1Tests.xctest */,
+				1903F2101C9E2BA50023C3CC /* ContactList_Therese_1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1903F1EB1C9E2BA40023C3CC /* ContactList_Therese_1 */ = {
+			isa = PBXGroup;
+			children = (
+				1903F1EF1C9E2BA50023C3CC /* AppDelegate.h */,
+				1903F1F01C9E2BA50023C3CC /* AppDelegate.m */,
+				1903F2221C9E469A0023C3CC /* Contact.h */,
+				1903F2231C9E469B0023C3CC /* Contact.m */,
+				1903F2251C9E46F70023C3CC /* ContactManager.h */,
+				1903F2261C9E46F70023C3CC /* ContactManager.m */,
+				1903F1F21C9E2BA50023C3CC /* MasterViewController.h */,
+				1903F1F31C9E2BA50023C3CC /* MasterViewController.m */,
+				1903F1F51C9E2BA50023C3CC /* DetailViewController.h */,
+				1903F1F61C9E2BA50023C3CC /* DetailViewController.m */,
+				1903F1F81C9E2BA50023C3CC /* Main.storyboard */,
+				1903F1FB1C9E2BA50023C3CC /* Assets.xcassets */,
+				1903F1FD1C9E2BA50023C3CC /* LaunchScreen.storyboard */,
+				1903F2001C9E2BA50023C3CC /* Info.plist */,
+				1903F1EC1C9E2BA40023C3CC /* Supporting Files */,
+			);
+			path = ContactList_Therese_1;
+			sourceTree = "<group>";
+		};
+		1903F1EC1C9E2BA40023C3CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1903F1ED1C9E2BA40023C3CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1903F2081C9E2BA50023C3CC /* ContactList_Therese_1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1903F2091C9E2BA50023C3CC /* ContactList_Therese_1Tests.m */,
+				1903F20B1C9E2BA50023C3CC /* Info.plist */,
+			);
+			path = ContactList_Therese_1Tests;
+			sourceTree = "<group>";
+		};
+		1903F2131C9E2BA50023C3CC /* ContactList_Therese_1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1903F2141C9E2BA50023C3CC /* ContactList_Therese_1UITests.m */,
+				1903F2161C9E2BA50023C3CC /* Info.plist */,
+			);
+			path = ContactList_Therese_1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1903F1E81C9E2BA40023C3CC /* ContactList_Therese_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1903F2191C9E2BA50023C3CC /* Build configuration list for PBXNativeTarget "ContactList_Therese_1" */;
+			buildPhases = (
+				1903F1E51C9E2BA40023C3CC /* Sources */,
+				1903F1E61C9E2BA40023C3CC /* Frameworks */,
+				1903F1E71C9E2BA40023C3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactList_Therese_1;
+			productName = ContactList_Therese_1;
+			productReference = 1903F1E91C9E2BA40023C3CC /* ContactList_Therese_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1903F2041C9E2BA50023C3CC /* ContactList_Therese_1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1903F21C1C9E2BA50023C3CC /* Build configuration list for PBXNativeTarget "ContactList_Therese_1Tests" */;
+			buildPhases = (
+				1903F2011C9E2BA50023C3CC /* Sources */,
+				1903F2021C9E2BA50023C3CC /* Frameworks */,
+				1903F2031C9E2BA50023C3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1903F2071C9E2BA50023C3CC /* PBXTargetDependency */,
+			);
+			name = ContactList_Therese_1Tests;
+			productName = ContactList_Therese_1Tests;
+			productReference = 1903F2051C9E2BA50023C3CC /* ContactList_Therese_1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1903F20F1C9E2BA50023C3CC /* ContactList_Therese_1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1903F21F1C9E2BA50023C3CC /* Build configuration list for PBXNativeTarget "ContactList_Therese_1UITests" */;
+			buildPhases = (
+				1903F20C1C9E2BA50023C3CC /* Sources */,
+				1903F20D1C9E2BA50023C3CC /* Frameworks */,
+				1903F20E1C9E2BA50023C3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1903F2121C9E2BA50023C3CC /* PBXTargetDependency */,
+			);
+			name = ContactList_Therese_1UITests;
+			productName = ContactList_Therese_1UITests;
+			productReference = 1903F2101C9E2BA50023C3CC /* ContactList_Therese_1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1903F1E11C9E2BA40023C3CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "therese tom";
+				TargetAttributes = {
+					1903F1E81C9E2BA40023C3CC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1903F2041C9E2BA50023C3CC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1903F1E81C9E2BA40023C3CC;
+					};
+					1903F20F1C9E2BA50023C3CC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1903F1E81C9E2BA40023C3CC;
+					};
+				};
+			};
+			buildConfigurationList = 1903F1E41C9E2BA40023C3CC /* Build configuration list for PBXProject "ContactList_Therese_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1903F1E01C9E2BA40023C3CC;
+			productRefGroup = 1903F1EA1C9E2BA40023C3CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1903F1E81C9E2BA40023C3CC /* ContactList_Therese_1 */,
+				1903F2041C9E2BA50023C3CC /* ContactList_Therese_1Tests */,
+				1903F20F1C9E2BA50023C3CC /* ContactList_Therese_1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1903F1E71C9E2BA40023C3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1903F1FF1C9E2BA50023C3CC /* LaunchScreen.storyboard in Resources */,
+				1903F1FC1C9E2BA50023C3CC /* Assets.xcassets in Resources */,
+				1903F1FA1C9E2BA50023C3CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1903F2031C9E2BA50023C3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1903F20E1C9E2BA50023C3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1903F1E51C9E2BA40023C3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1903F1F11C9E2BA50023C3CC /* AppDelegate.m in Sources */,
+				1903F1F41C9E2BA50023C3CC /* MasterViewController.m in Sources */,
+				1903F2241C9E469B0023C3CC /* Contact.m in Sources */,
+				1903F1EE1C9E2BA50023C3CC /* main.m in Sources */,
+				1903F2271C9E46F70023C3CC /* ContactManager.m in Sources */,
+				1903F1F71C9E2BA50023C3CC /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1903F2011C9E2BA50023C3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1903F20A1C9E2BA50023C3CC /* ContactList_Therese_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1903F20C1C9E2BA50023C3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1903F2151C9E2BA50023C3CC /* ContactList_Therese_1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1903F2071C9E2BA50023C3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1903F1E81C9E2BA40023C3CC /* ContactList_Therese_1 */;
+			targetProxy = 1903F2061C9E2BA50023C3CC /* PBXContainerItemProxy */;
+		};
+		1903F2121C9E2BA50023C3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1903F1E81C9E2BA40023C3CC /* ContactList_Therese_1 */;
+			targetProxy = 1903F2111C9E2BA50023C3CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1903F1F81C9E2BA50023C3CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1903F1F91C9E2BA50023C3CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1903F1FD1C9E2BA50023C3CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1903F1FE1C9E2BA50023C3CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1903F2171C9E2BA50023C3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1903F2181C9E2BA50023C3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1903F21A1C9E2BA50023C3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContactList_Therese_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lambton.ContactList-Therese-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1903F21B1C9E2BA50023C3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContactList_Therese_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lambton.ContactList-Therese-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1903F21D1C9E2BA50023C3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContactList_Therese_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lambton.ContactList-Therese-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactList_Therese_1.app/ContactList_Therese_1";
+			};
+			name = Debug;
+		};
+		1903F21E1C9E2BA50023C3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContactList_Therese_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lambton.ContactList-Therese-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactList_Therese_1.app/ContactList_Therese_1";
+			};
+			name = Release;
+		};
+		1903F2201C9E2BA50023C3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ContactList_Therese_1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lambton.ContactList-Therese-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ContactList_Therese_1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1903F2211C9E2BA50023C3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ContactList_Therese_1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lambton.ContactList-Therese-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ContactList_Therese_1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1903F1E41C9E2BA40023C3CC /* Build configuration list for PBXProject "ContactList_Therese_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1903F2171C9E2BA50023C3CC /* Debug */,
+				1903F2181C9E2BA50023C3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1903F2191C9E2BA50023C3CC /* Build configuration list for PBXNativeTarget "ContactList_Therese_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1903F21A1C9E2BA50023C3CC /* Debug */,
+				1903F21B1C9E2BA50023C3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1903F21C1C9E2BA50023C3CC /* Build configuration list for PBXNativeTarget "ContactList_Therese_1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1903F21D1C9E2BA50023C3CC /* Debug */,
+				1903F21E1C9E2BA50023C3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1903F21F1C9E2BA50023C3CC /* Build configuration list for PBXNativeTarget "ContactList_Therese_1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1903F2201C9E2BA50023C3CC /* Debug */,
+				1903F2211C9E2BA50023C3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1903F1E11C9E2BA40023C3CC /* Project object */;
+}
